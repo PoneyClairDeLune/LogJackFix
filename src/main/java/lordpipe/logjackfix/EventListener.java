@@ -16,7 +16,7 @@ public class EventListener implements Listener {
         String message = event.getMessage();
 
         if (message.contains("${")) {
-            event.setMessage(message.replaceAll("\\$\\{", "\\$ {"));
+            event.setMessage(message.replaceAll("\\$\\{", "§c§l\\§r§b{§r§f"));
         }
     }
 }
